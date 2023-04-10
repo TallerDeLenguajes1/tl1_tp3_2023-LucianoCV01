@@ -10,7 +10,7 @@ y una vez cargados los liste por pantalla (Todo implementando reserva dinámica 
 */
 int main(){
     char *buff; //Variable Auxiliar
-    char **puntVectoresChar; //Puntero de punteros char
+    char **puntVectoresChar; //Puntero de punteros char. No hacia falta un puntero doble, la consigna solo pide un arreglo de punteros char.
 
     //Reserva dinamica de memoria para auxiliar y puntero doble
     buff = (char *) malloc(sizeof(char) * 100);
